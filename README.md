@@ -25,7 +25,7 @@ Of course, MerkadoPago isn't perfect and I created it for my own projects, but t
 ```kotlin
 repositories {
     ...
-    maven("https://repo.perfectdreams.net/")
+    maven{ url 'https://repo.perfectdreams.net/' }
 }
 
 dependencies {
